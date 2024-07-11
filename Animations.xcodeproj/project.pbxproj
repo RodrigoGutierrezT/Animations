@@ -13,6 +13,7 @@
 		5BE14EAF2C3E33D7004934B8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BE14EAE2C3E33D7004934B8 /* Preview Assets.xcassets */; };
 		5BE14EB62C3F8352004934B8 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE14EB52C3F8352004934B8 /* TestView.swift */; };
 		5BE14EB82C3F8C1E004934B8 /* TestBindingAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE14EB72C3F8C1E004934B8 /* TestBindingAnimationView.swift */; };
+		5BE14EBA2C406390004934B8 /* TestExplicitAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE14EB92C406390004934B8 /* TestExplicitAnimationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		5BE14EAE2C3E33D7004934B8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5BE14EB52C3F8352004934B8 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		5BE14EB72C3F8C1E004934B8 /* TestBindingAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBindingAnimationView.swift; sourceTree = "<group>"; };
+		5BE14EB92C406390004934B8 /* TestExplicitAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestExplicitAnimationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				5BE14EAD2C3E33D7004934B8 /* Preview Content */,
 				5BE14EB52C3F8352004934B8 /* TestView.swift */,
 				5BE14EB72C3F8C1E004934B8 /* TestBindingAnimationView.swift */,
+				5BE14EB92C406390004934B8 /* TestExplicitAnimationView.swift */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BE14EBA2C406390004934B8 /* TestExplicitAnimationView.swift in Sources */,
 				5BE14EB62C3F8352004934B8 /* TestView.swift in Sources */,
 				5BE14EAA2C3E33D6004934B8 /* ContentView.swift in Sources */,
 				5BE14EA82C3E33D6004934B8 /* AnimationsApp.swift in Sources */,
