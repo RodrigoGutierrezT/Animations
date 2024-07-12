@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		5B67246E2C41B67C00335293 /* TestGesturesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B67246D2C41B67C00335293 /* TestGesturesView.swift */; };
+		5B6724702C41BDF600335293 /* TestTransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B67246F2C41BDF600335293 /* TestTransitionView.swift */; };
+		5B6724722C41BFC400335293 /* TestCustomTransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6724712C41BFC400335293 /* TestCustomTransitionView.swift */; };
 		5BE14EA82C3E33D6004934B8 /* AnimationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE14EA72C3E33D6004934B8 /* AnimationsApp.swift */; };
 		5BE14EAA2C3E33D6004934B8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE14EA92C3E33D6004934B8 /* ContentView.swift */; };
 		5BE14EAC2C3E33D7004934B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BE14EAB2C3E33D7004934B8 /* Assets.xcassets */; };
@@ -19,6 +21,8 @@
 
 /* Begin PBXFileReference section */
 		5B67246D2C41B67C00335293 /* TestGesturesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGesturesView.swift; sourceTree = "<group>"; };
+		5B67246F2C41BDF600335293 /* TestTransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTransitionView.swift; sourceTree = "<group>"; };
+		5B6724712C41BFC400335293 /* TestCustomTransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCustomTransitionView.swift; sourceTree = "<group>"; };
 		5BE14EA42C3E33D6004934B8 /* Animations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BE14EA72C3E33D6004934B8 /* AnimationsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsApp.swift; sourceTree = "<group>"; };
 		5BE14EA92C3E33D6004934B8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -67,6 +71,8 @@
 				5BE14EB72C3F8C1E004934B8 /* TestBindingAnimationView.swift */,
 				5BE14EB92C406390004934B8 /* TestExplicitAnimationView.swift */,
 				5B67246D2C41B67C00335293 /* TestGesturesView.swift */,
+				5B67246F2C41BDF600335293 /* TestTransitionView.swift */,
+				5B6724712C41BFC400335293 /* TestCustomTransitionView.swift */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -151,6 +157,8 @@
 			files = (
 				5B67246E2C41B67C00335293 /* TestGesturesView.swift in Sources */,
 				5BE14EBA2C406390004934B8 /* TestExplicitAnimationView.swift in Sources */,
+				5B6724722C41BFC400335293 /* TestCustomTransitionView.swift in Sources */,
+				5B6724702C41BDF600335293 /* TestTransitionView.swift in Sources */,
 				5BE14EB62C3F8352004934B8 /* TestView.swift in Sources */,
 				5BE14EAA2C3E33D6004934B8 /* ContentView.swift in Sources */,
 				5BE14EA82C3E33D6004934B8 /* AnimationsApp.swift in Sources */,
